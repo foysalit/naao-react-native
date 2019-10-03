@@ -1,0 +1,57 @@
+{
+  "expo": {
+    "name": "Naao",
+    "description": "Get your package delivered with a personal touch.",
+    "slug": "naao",
+    "privacy": "public",
+    "sdkVersion": "31.0.0",
+    "platforms": [
+      "ios",
+      "android"
+    ],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/naaoandroid.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#232937"
+    },
+    "updates": {
+      "enabled": true,
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "buildNumber": "1.0.5",
+      "icon": "./assets/naaoios.png",
+      "bundleIdentifier": "com.bdgeeks.naao"
+    },
+    "android": {
+      "playStoreUrl": "https://play.google.com/store/apps/details?id=com.bdgeeks.naao",
+      "icon": "./assets/naaoandroid.png",
+      "package": "com.bdgeeks.naao",
+      "versionCode": 105,
+      "permissions": [
+        "CAMERA", "CAMERA_ROLL", "WRITE_EXTERNAL_STORAGE"
+      ],
+      "config": {
+        "googleMaps": {
+          "apiKey": ""
+        }
+      }
+    },
+    "androidStatusBar": {
+      "backgroundColor": "#232937",
+      "barStyle": "light-content"
+    },
+    "notification": {
+      "icon": "./assets/noti.icon.png",
+      "androidMode": "collapse",
+      "color": "#232937"
+    }
+  }
+}
