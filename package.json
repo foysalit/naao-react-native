@@ -1,0 +1,34 @@
+{
+  "name": "naao",
+  "main": "node_modules/expo/AppEntry.js",
+  "private": true,
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "eject": "expo eject"
+  },
+  "dependencies": {
+    "@expo/vector-icons": "^8.0.0",
+    "date-fns": "^1.29.0",
+    "expo": "^31.0.2",
+    "lodash": "^4.17.11",
+    "native-base": "^2.8.1",
+    "prop-types": "^15.6.2",
+    "react": "16.5.0",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-31.0.0.tar.gz",
+    "react-native-dialog": "^5.4.0",
+    "react-native-gifted-chat": "^0.4.3",
+    "react-native-maps": "^0.22.1",
+    "react-native-meteor": "^1.4.0",
+    "react-native-modal": "^7.0.1",
+    "react-native-modal-datetime-picker": "^6.0.0",
+    "react-native-onboarding-swiper": "^0.10.0",
+    "react-native-star-rating": "^1.1.0",
+    "react-navigation": "^2.18.2",
+    "simpl-schema": "^1.5.3"
+  },
+  "devDependencies": {
+    "babel-preset-expo": "^5.0.0"
+  }
+}
