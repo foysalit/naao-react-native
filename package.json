@@ -26,7 +26,7 @@
     "react-native-onboarding-swiper": "^0.10.0",
     "react-native-star-rating": "^1.1.0",
     "react-navigation": "^2.18.2",
-    "simpl-schema": "^1.5.3"
+    "simpl-schema": "^1.10.2"
   },
   "devDependencies": {
     "babel-preset-expo": "^5.0.0"
